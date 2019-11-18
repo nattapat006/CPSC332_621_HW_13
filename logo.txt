@@ -1,0 +1,50 @@
+TO comment :message
+END
+
+cs
+setpensize 5
+setpencolor "#303f9f
+
+comment "body_1
+rt 30 fd 100
+rt 60 fd 100
+rt 120 fd 100
+rt 60 fd 100
+
+comment "body_2
+bk 100 
+rt 60 fd 125
+lt 60 fd 25
+rt 90 fd 15
+rt 90 fd 50 
+rt 90 fd 15
+rt 90 fd 25
+
+comment "body_3
+rt 60 bk 125
+pu lt 60 bk 100 pd
+rt 60 fd 145
+arc 360 10
+
+comment "wheel_1
+bk 145
+setpencolor "#424242
+arc 360 50
+
+comment "wheel_2
+pu lt 60 fd 200 pd
+arc 360 50
+
+comment "wheel_3
+bk 100
+arc 360 25
+
+comment "wheel_4
+rt 120
+fd 100
+lt 60
+fd 45
+lt 70
+fd 30
+rt 180
+fd 30
